@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+}
+
+
+
+.screen{
+    width: 100vh;
+    font-size: 5rem;
+    padding: 1rem;
+    background: black;
+    color: white;
+    border: 2.5+px solid white;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 0.25s linear;
+}
+
+button{
+    flex: 0 0 25%;
+    border: 1px solid black;
+    padding: 0.25rem 0;
+    transition: all 0.25s ease-in;
+}
+
+button:hover{
+    background: blue;
+}
+
+.btn-yellow{
+    background: yellow;
+    color: white;
+}
+
+.btn-grey{
+    background: grey;
+    color: white;
+}
+
+.btn,.btn-equal,.btn-clear{
+    font-size: 4rem;
+}
+
+.btn-equal{
+    background: green;
+}
+
+.btn-clear{
+    background: red;
+}
